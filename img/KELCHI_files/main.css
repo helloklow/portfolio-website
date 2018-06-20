@@ -1,10 +1,8 @@
 /***** BASE STYLES *****/
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', sans-serif;
     font-weight: lighter; 
-    font-size: 14px;
-    line-height: 5px;
     color: #2b2b2b;
 }
 #about, #work, #contact {
@@ -38,11 +36,11 @@ header h1 {
     font-weight: bold;
     font-size: 30px;
     color: ivory;
-    padding: 15px 0 65px 25px;
+    padding: 65px 0 65px 25px;
 }
 nav {
     float: right; 
-    padding: 10px 15px;
+    padding: 75px 25px;
 }
 nav ul li{
     display: inline-block;
@@ -50,7 +48,7 @@ nav ul li{
 nav ul li a {
     text-transform: uppercase;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 18px;
     color: ivory;
     padding-left: 80px; 
 }
@@ -109,9 +107,9 @@ header h2 span {
     text-align: center;
 }
 #about p {
-    font-size: 15px;
+    font-size: 18px;
     color: floralwhite;
-    line-height: 22px;
+    line-height: 30px;
     padding-left: 50px;
     padding-right: 50px;
 }
@@ -119,7 +117,7 @@ header h2 span {
 /***** WORK *****/
 
 #work {
-    background-color: #debca3;
+    background-color: ivory;
     text-align: center;
 }
 #work .full-width {
@@ -131,20 +129,14 @@ header h2 span {
 #work h3 {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    font-size: 26px;
     line-height: 32px;
     width: 150px;
     margin: 0 auto;
 }
-#work h5 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
-    font-weight: regular;
-}
 #work p {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', sans-serif;
     font-weight: lighter;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 30px;
     padding: 0 50px;
 }
@@ -153,7 +145,6 @@ header h2 span {
 
 #contact {
     background-color: #1a1a1a;
-    text-align: center;
 }
 #contact .full-width {
     padding: 110px 0;
@@ -174,26 +165,21 @@ header h2 span {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     color: ivory;
-    font-size: 60px;
-    line-height: 5px;
-    padding: 0 0 60px 0;
-    text-align: center;
-    color: #52527a;
+    font-size: 30px;
+    line-height: 44px;
 }
-#contact span {
-    color: ivory;
-}
-#contact #contact-header {
-    font-family: 'Roboto', sans-serif;
-    font-weight: lighter;
-    font-size: 18px;
+#contact #email-header {
+    font-size: 24px;
     color: ivory;
     line-height: 44px;
-    margin: 0px 0 5px 0;
-    line-height: 100px;
+    margin: -30px 0 5px 0;
 }
-#contact .email {
-    text-align: center;
+#contact #socialmedia-header {
+    font-size: 24px;
+    font-weight: bold;
+    color: ivory;
+    line-height: 44px;
+    margin: 40px 0 0 0;
 }
 #contact a {
     text-decoration: none;
