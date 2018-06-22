@@ -8,7 +8,7 @@ body {
     color: #2b2b2b;
 }
 #about, #work, #contact {
-    height: 600px;
+    height: 550px;
 }
 
 /***** GRID *****/
@@ -33,12 +33,10 @@ header {
     background: url('../img/hero.png');
     background-size: cover;
 }
-header h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    font-size: 30px;
-    color: ivory;
-    padding: 15px 0 65px 25px;
+header #logo {
+    height: 80px;
+    width: 70px;
+    padding: 12px 0 100px 25px;
 }
 nav {
     float: right; 
@@ -51,7 +49,7 @@ nav ul li a {
     text-transform: uppercase;
     text-decoration: none;
     font-size: 12px;
-    color: ivory;
+    color: floralwhite;
     padding-left: 80px; 
 }
 header h2 {
@@ -61,8 +59,8 @@ header h2 {
     font-weight: bold;
     font-size: 60px;
     line-height: 60px;
-    color: ivory;
-    padding: 20px 0 20px 25px;
+    color: floralwhite;
+    padding: 35px 0 20px 25px;
 }
 header h2 span {
     color: #52527a;
@@ -76,24 +74,17 @@ header h2 span {
 #about .full-width {
     padding: 80px 0;
 }
-#about h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    font-size: 33px;
-    padding-left: 50px;
-    color: floralwhite;
-    line-height: 32px;
-}
 #about h3 {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 33px;
+    margin-top: 30px;
     padding-left: 50px;
     color: floralwhite;
     line-height: 5px;
 }
-#about h2 span {
-    color: #52527a;
+#about .whitetext {
+    line-height: 32px;
 }
 #about h3 span {
     color: #52527a;
@@ -104,12 +95,22 @@ header h2 span {
 #about .linethree {
     text-align: right;
 }
-#about .aboutright {
-    padding: 20px 0px 80px 80px;
+#about .kelchiabout {
     text-align: center;
+    color: floralwhite;
+    margin: 43px 0px 0px 18px;
+}
+#about .kelchiabout span {
+    color: #52527a;
+}
+#about .aboutright {
+    padding: 15px 0px 0px 80px;
+    text-align: center;
+    line-height: 20px;
+    margin: auto;
 }
 #about p {
-    font-size: 15px;
+    font-size: 14px;
     color: floralwhite;
     line-height: 22px;
     padding-left: 50px;
@@ -119,14 +120,17 @@ header h2 span {
 /***** WORK *****/
 
 #work {
-    background-color: #debca3;
+    background-color: floralwhite;
     text-align: center;
+    /***** border: 10px solid #404040; *****/
 }
 #work .full-width {
     padding: 115px 0;
 }
 #work img {
-    padding-bottom: 30px;
+    height: 100px;
+    width: 100px;
+    padding: 20px 0px 0px 0px;
 }
 #work h3 {
     font-family: 'Montserrat', sans-serif;
@@ -139,13 +143,15 @@ header h2 span {
 #work h5 {
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
-    font-weight: regular;
+}
+#work h5 span {
+    color: #52527a;
 }
 #work p {
     font-family: 'Roboto', sans-serif;
     font-weight: lighter;
     font-size: 14px;
-    line-height: 30px;
+    line-height: 20px;
     padding: 0 50px;
 }
 
@@ -156,44 +162,39 @@ header h2 span {
     text-align: center;
 }
 #contact .full-width {
-    padding: 110px 0;
+    padding: 90px 0;
 }
-#contact #contact-img {
-    margin-left: 150px;
-    padding: 20px;
-    height: 300px;
-    width; 250px;
-}
-#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul {
-    padding-left: 115px;
-}
-#contact #envelope {
-    padding: 0 10px 0 115px;
+#contact .center {
+    width: 300px;
+    margin: 0px 400px 0px 435px;
 }
 #contact h2 {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    color: ivory;
-    font-size: 60px;
+    color: floralwhite;
+    font-size: 52px;
     line-height: 5px;
-    padding: 0 0 60px 0;
+    padding: 0 0 50px 0;
     text-align: center;
-    color: #52527a;
+    color: floralwhite;
 }
 #contact span {
-    color: ivory;
+    color: #52527a;
 }
-#contact #contact-header {
-    font-family: 'Roboto', sans-serif;
-    font-weight: lighter;
-    font-size: 18px;
-    color: ivory;
+#contact #contact-via {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    color: floralwhite;
     line-height: 44px;
     margin: 0px 0 5px 0;
-    line-height: 100px;
+    line-height: 50px;
+    text-align: left;
 }
 #contact .email {
     text-align: center;
+    line-height: 0px;
+    color: #52527a;
 }
 #contact a {
     text-decoration: none;
@@ -210,5 +211,6 @@ header h2 span {
 }
 #contact ul img {
     font-size: 32px;
-    padding-right: 48px;
+    padding: 0px 48px 0px 0px;
+    margin: -70px 0px 0px 0px;
 }
